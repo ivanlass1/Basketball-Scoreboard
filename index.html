@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+                <h2 id="score-home">0</h3>
+                <div class="btns"> 
+                    <button class="btn" onclick="add1home()">+1</button>
+                    <button class="btn" onclick="add2home()">+2</button>
+                    <button class="btn" onclick="add3home()">+3</button>
+                </div>
+                <div class="reset-btn-div">
+                    <button class="reset-btn" onclick="resetHome()">RESET</button>
+                </div>
+                <div class="btns"> 
+                    <button class="btn" onclick="del1home()">-1</button>
+                    <button class="btn" onclick="del2home()">-2</button>
+                    <button class="btn" onclick="del3home()">-3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="title">AWAY</h3>
+                <h2 id="score-away">0</h3>
+                <div class="btns"> 
+                    <button class="btn" onclick="add1away()">+1</button>
+                    <button class="btn" onclick="add2away()">+2</button>
+                    <button class="btn" onclick="add3away()">+3</button>
+                </div>
+                <div class="reset-btn-div">
+                    <button class="reset-btn" onclick="resetAway()">RESET</button>
+                </div>
+                 <div class="btns"> 
+                    <button class="btn" onclick="del1away()">-1</button>
+                    <button class="btn" onclick="del2away()">-2</button>
+                    <button class="btn" onclick="del3away()">-3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

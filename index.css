@@ -1,0 +1,70 @@
+@font-face {
+    font-family: ScoreFont;
+    src:url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #F94F6D;
+    background-color: black;
+    padding: 20px 50px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-family: ScoreFont;
+}
+
+.title {
+    text-align: center;
+    font-size: 30PX;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    border-color: #9AABD8;
+    margin: 2px;
+    font-family: ScoreFont;
+}
+
+.reset-btn-div {
+    text-align: center;
+}
+
+.reset-btn {
+    padding: 10px 48px;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    border-color: #9AABD8;
+    background-color: transparent;
+    margin: 5px;
+    font-family: ScoreFont;
+}
+
+.btn:hover, .reset-btn:hover {
+    background-color: #1B244A;
+    color: #9AABD8;
+    box-shadow: 2px 2px 4px black;
+}
